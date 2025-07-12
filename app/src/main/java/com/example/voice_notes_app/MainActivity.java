@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton voiceButton = findViewById(R.id.voiceButton);
         responseText = findViewById(R.id.responseText);
 
-        requestPermissions(); // Ensure permissions are granted
+        requestPermissions(); // Ensure permissions are granted from user
 
         voiceButton.setOnClickListener(v -> startVoiceRecognition());
     }
